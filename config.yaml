@@ -1,0 +1,17 @@
+# 파트4 POC 설정 (비밀키는 .env에만 둘 것)
+retriever_type: "agentic_rag"   # naive_rag / agentic_rag 토글
+top_k: 4
+re_retrieve_top_k: 8
+max_retry: 2
+
+llm_model: "gpt-5-mini"
+embedding_model: "text-embedding-3-small"
+
+faiss_index_path: "data/faiss_index"
+corpus_path: "data/corpus"
+
+# 상권 API
+market_radius: 500        # 반경(m)
+market_max_stores: 100
+
+max_history: 10
