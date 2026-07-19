@@ -1,6 +1,6 @@
 # 파트4 POC · 소상공인 광고 카피 Agentic-RAG 챗봇
 
-파트4 팀 고급 프로젝트(8/4~8/29)에 앞서, **LangGraph로 Agentic-RAG 오케스트레이션이
+파트4 팀 고급 프로젝트(8/4-8/29)에 앞서, **LangGraph로 Agentic-RAG 오케스트레이션이
 실제로 동작하는지**를 검증하는 POC입니다. (기간 7/20~7/24 · 1인)
 
 파트3(RFPilot)의 그래프 구조(state → 노드 → 조건부 엣지 → 재검색 루프)를 그대로 이식해,
@@ -10,8 +10,8 @@ POC 성공 후 본 프로젝트에서 노드만 추가하면 되도록 설계했
 
 ```
 START → question_analysis → routing ─┬ with_market → market_context ┐
-                                     └ copy_only ──────────────────┴→ compliance_rag
-compliance_rag →(토글)┬ agentic_rag → grade
+                                     └ copy_only ───────────────────┴→ compliance_rag
+compliance_rag →(토글) ┬ agentic_rag → grade
                       └ naive_rag  → copy_generation
 grade ─┬ sufficient / out_of_scope / 한도초과 → copy_generation
        └ insufficient(여유)                  → re_retrieve → grade ↺
