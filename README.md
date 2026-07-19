@@ -8,6 +8,8 @@ POC 성공 후 본 프로젝트에서 노드만 추가하면 되도록 설계했
 
 ## 파이프라인
 
+![챗봇 파이프라인](reports/poc-agentic-chatbot1.png.png)
+
 ```
 START → question_analysis → routing ─┬ with_market → market_context ┐
                                      └ copy_only ───────────────────┴→ compliance_rag
