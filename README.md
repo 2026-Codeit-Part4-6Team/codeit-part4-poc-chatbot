@@ -34,11 +34,11 @@ copy_generation → self_check → END
 ## 참고 자료
 
 ### 소상공인시장진흥공단
-<a href="https://2026-codeit-part4-6team.github.io/codeit-part4-poc-chatbot/docs/소상공인시장진흥공단_상가(상권)정보_OpenApi 활용가이드.hwp">Rest API 명세서</a>
+- 소상공인시장진흥공단_상가(상권)정보 OpenAPI 활용가이드 — [다운로드](https://raw.githubusercontent.com/2026-Codeit-Part4-6Team/codeit-part4-poc-chatbot/main/docs/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%EC%8B%9C%EC%9E%A5%EC%A7%84%ED%9D%A5%EA%B3%B5%EB%8B%A8_%EC%83%81%EA%B0%80%28%EC%83%81%EA%B6%8C%29%EC%A0%95%EB%B3%B4_OpenApi%20%ED%99%9C%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C.hwp)
 
-<a href="https://2026-codeit-part4-6team.github.io/codeit-part4-poc-chatbot/docs/소상공인시장진흥공단_상가(상권)정보_업종분류(2302)_및_연계표_v1.xlsx">업종분류(2302) 및 연계표</a>
+- 소상공인시장진흥공단_상가(상권)정보 업종분류(2302) 및 연계표 v1 — [다운로드](https://raw.githubusercontent.com/2026-Codeit-Part4-6Team/codeit-part4-poc-chatbot/main/docs/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%EC%8B%9C%EC%9E%A5%EC%A7%84%ED%9D%A5%EA%B3%B5%EB%8B%A8_%EC%83%81%EA%B0%80%28%EC%83%81%EA%B6%8C%29%EC%A0%95%EB%B3%B4_%EC%97%85%EC%A2%85%EB%B6%84%EB%A5%98%282302%29_%EB%B0%8F_%EC%97%B0%EA%B3%84%ED%91%9C_v1.xlsx)
 
-<a href="https://2026-codeit-part4-6team.github.io/codeit-part4-poc-chatbot/docs/소상공인시장진흥공단_주요상권현황_20240101.csv">주요상권현황</a>
+- 소상공인시장진흥공단_주요상권현황_20240101 — [다운로드](https://raw.githubusercontent.com/2026-Codeit-Part4-6Team/codeit-part4-poc-chatbot/main/docs/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%EC%8B%9C%EC%9E%A5%EC%A7%84%ED%9D%A5%EA%B3%B5%EB%8B%A8_%EC%A3%BC%EC%9A%94%EC%83%81%EA%B6%8C%ED%98%84%ED%99%A9_20240101.csv)
 
 ## 실행 방법
 
