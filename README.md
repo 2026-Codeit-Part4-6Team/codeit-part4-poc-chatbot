@@ -34,11 +34,11 @@ copy_generation → self_check → END
 ## 참고 자료
 
 ### 소상공인시장진흥공단
-![Rest API 명세서](docs/소상공인시장진흥공단_상가(상권)정보_OpenApi 활용가이드.hwp)
+<a href="https://2026-codeit-part4-6team.github.io/codeit-part4-poc-chatbot/docs/소상공인시장진흥공단_상가(상권)정보_OpenApi 활용가이드.hwp">Rest API 명세서</a>
 
-![업종분류(2302) 및 연계표](소상공인시장진흥공단_상가(상권)정보_업종분류(2302)_및_연계표_v1.xlsx)
+<a href="https://2026-codeit-part4-6team.github.io/codeit-part4-poc-chatbot/docs/소상공인시장진흥공단_상가(상권)정보_업종분류(2302)_및_연계표_v1.xlsx">업종분류(2302) 및 연계표</a>
 
-![주요상권현황](docs/소상공인시장진흥공단_주요상권현황_20240101.csv)
+<a href="https://2026-codeit-part4-6team.github.io/codeit-part4-poc-chatbot/docs/소상공인시장진흥공단_주요상권현황_20240101.csv">주요상권현황</a>
 
 ## 실행 방법
 
