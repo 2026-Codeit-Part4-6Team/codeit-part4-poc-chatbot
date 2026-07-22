@@ -31,6 +31,15 @@ copy_generation → self_check → END
 | copy_generation | `nodes/copy_generation.py` | 상권+규제 근거 기반 카피 3안 생성 |
 | self_check | `nodes/self_check.py` | 위험 표현 룰 점검 후 경고 삽입 |
 
+## 참고 자료
+
+### 소상공인시장진흥공단
+![Rest API 명세서](docs/소상공인시장진흥공단_상가(상권)정보_OpenApi 활용가이드.hwp)
+
+![업종분류(2302) 및 연계표](소상공인시장진흥공단_상가(상권)정보_업종분류(2302)_및_연계표_v1.xlsx)
+
+![주요상권현황](docs/소상공인시장진흥공단_주요상권현황_20240101.csv)
+
 ## 실행 방법
 
 ### 1) 설치
