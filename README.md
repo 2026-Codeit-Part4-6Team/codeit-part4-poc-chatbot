@@ -6,6 +6,8 @@
 파트3(RFPilot)의 그래프 구조(state → 노드 → 조건부 엣지 → 재검색 루프)를 그대로 이식해,
 POC 성공 후 본 프로젝트에서 노드만 추가하면 되도록 설계했습니다.
 
+---
+
 ## 파이프라인
 
 ![챗봇 파이프라인](docs/poc-agentic-chatbot1.png)
@@ -31,6 +33,8 @@ copy_generation → self_check → END
 | copy_generation | `nodes/copy_generation.py` | 상권+규제 근거 기반 카피 3안 생성 |
 | self_check | `nodes/self_check.py` | 위험 표현 룰 점검 후 경고 삽입 |
 
+---
+
 ## 참고 자료
 
 ### 소상공인시장진흥공단
@@ -39,6 +43,8 @@ copy_generation → self_check → END
 - 업종분류(2302) 및 연계표 v1 — [다운로드](https://raw.githubusercontent.com/2026-Codeit-Part4-6Team/codeit-part4-poc-chatbot/main/docs/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%EC%8B%9C%EC%9E%A5%EC%A7%84%ED%9D%A5%EA%B3%B5%EB%8B%A8_%EC%83%81%EA%B0%80%28%EC%83%81%EA%B6%8C%29%EC%A0%95%EB%B3%B4_%EC%97%85%EC%A2%85%EB%B6%84%EB%A5%98%282302%29_%EB%B0%8F_%EC%97%B0%EA%B3%84%ED%91%9C_v1.xlsx)
 
 - 주요상권현황 — [다운로드](https://raw.githubusercontent.com/2026-Codeit-Part4-6Team/codeit-part4-poc-chatbot/main/docs/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%EC%8B%9C%EC%9E%A5%EC%A7%84%ED%9D%A5%EA%B3%B5%EB%8B%A8_%EC%A3%BC%EC%9A%94%EC%83%81%EA%B6%8C%ED%98%84%ED%99%A9_20240101.csv)
+
+---
 
 ## 실행 방법
 
@@ -98,6 +104,8 @@ python -m backend.pipeline        # 진입점 응답 확인
 python -m backend.tools.market_api  # 상권 API 단독 점검
 ```
 
+---
+
 ## POC 성공 기준 확인 방법
 
 1. **흐름 완주** — Streamlit에서 질문 후 카피가 나오면 통과
@@ -107,6 +115,8 @@ python -m backend.tools.market_api  # 상권 API 단독 점검
 3. **상권 반영** — `상권 정보` 확장 패널에 점포 수·업종 구성이 표시되고,
    카피에 타겟/차별점이 반영됐는지 확인
 4. **naive vs agentic 비교** — 사이드바 토글을 바꿔가며 `근거 판정` 지표 차이를 시연
+
+---
 
 ## 5일 일정
 
@@ -118,6 +128,8 @@ python -m backend.tools.market_api  # 상권 API 단독 점검
 | 7/23(목) | `copy_generation`·`self_check`, 엔드투엔드 실행 |
 | 7/24(금) | Streamlit 연결, 시나리오 테스트, POC 결과 정리 |
 
+---
+
 ## 남은 작업 (POC 진행 중 직접 채울 것)
 
 - **코퍼스 확충**: 현재 `data/corpus/ad_regulations.md`는 시드(약 4청크)입니다.
@@ -125,6 +137,8 @@ python -m backend.tools.market_api  # 상권 API 단독 점검
   수집해 **10~30청크 이상**으로 늘려야 grade 판정이 의미 있게 동작합니다.
 - **상권 API 응답 필드 확인**: `market_api.py`의 `indsMclsNm`(업종중분류) 등 필드명은
   공공데이터포털 "Open API 명세 확인 가이드"에서 실제 응답과 대조해 보정하세요.
+
+---
 
 ## 본 프로젝트로 넘길 항목
 
