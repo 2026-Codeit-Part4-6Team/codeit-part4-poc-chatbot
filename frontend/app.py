@@ -18,7 +18,8 @@ from openai import RateLimitError, AuthenticationError
 # Path(__file__)은 frontend/app.py이고, .parent.parent는 루트 디렉토리 의미
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from backend.settings import PROJECT_ROOT, RELOAD_URL, CHAT_URL
+# from backend.settings import PROJECT_ROOT, RELOAD_URL, CHAT_URL
+from backend.settings import PROJECT_ROOT, CHAT_URL
 from backend.pipeline import get_ai_response
 
 # API_URL = "http://localhost:8000/chat"
