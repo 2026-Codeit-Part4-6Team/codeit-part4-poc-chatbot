@@ -35,7 +35,7 @@ else:
 # 기본값은 로컬 개발 환경 기준
 CHAT_URL = os.getenv("CHAT_URL", "http://127.0.0.1:8000/chat")
 # CHAT_URL = os.getenv("CHAT_URL", "http://localhost:8000/chat")
-RELOAD_URL=os.getenv("RELOAD_URL", "http://127.0.0.1:8000/reload-model")
+# RELOAD_URL=os.getenv("RELOAD_URL", "http://127.0.0.1:8000/reload-model")
 # (확장 시) 추가 엔드포인트가 생기면 여기에 추가
 # HEALTH_URL = os.getenv("HEALTH_URL", "http://127.0.0.1:8000/health")
 # DOCS_URL = os.getenv("DOCS_URL", "http://127.0.0.1:8000/docs")
